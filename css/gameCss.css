@@ -1,0 +1,86 @@
+.deck{
+	height: 42vw;
+    width: 42vw;
+	 background: linear-gradient(-160deg, purple, green);
+	margin: 1vw solid black;
+	display:flex;
+	flex-wrap:wrap;
+	 justify-content: space-between;
+    align-items: center;    
+	padding:1vw;	
+}
+
+.deck .card{
+	height: 9vw;
+    width:9vw;
+	background: #38A892;
+	font-size:0px;
+	
+	border: 1px solid black;
+	border-radius:15px;
+	box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+	cursor:pointer;
+	
+}
+
+ .deck .open{
+	 height: 9vw;
+    width:9vw;
+	align-items: center;
+	background: linear-gradient(-160deg, yellow, orange);
+	font-size:2.5vw !important;
+	color:black;
+	border: 1px solid black;
+	border-radius:15px;
+	box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+	cursor:default;
+	
+	
+}
+
+.deck .match{	
+	cursor:default;
+	height: 9vw;
+    width:9vw;
+	align-items: center;
+	background: linear-gradient(-160deg, yellow, #00cc44);;
+	font-size:2.5vw !important;
+	border: 1px solid black;
+	border-radius:15px;
+	box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+	cursor:default;
+}
+
+.deck .noMatch{
+	
+	cursor:default;
+	height: 9vw;
+    width:9vw;
+	align-items: center;
+	background: linear-gradient(-160deg, red, black);;
+	font-size:2.5vw !important;
+	color:white;
+	border: 1px solid black;
+	border-radius:15px;
+	box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+	cursor:default;
+}
+
+#myModal{
+	height: 100%;
+    width: 42vw;
+}
+ul{
+	list-style-type:none;
+}
+li i {
+	align-items:center;
+	
+	padding:3vw;
+}
+
+#play{
+	font-size:2vw;
+	padding:1vw;
+	margin:1vw;
+}
